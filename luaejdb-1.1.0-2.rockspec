@@ -1,8 +1,16 @@
+-- This file was automatically generated for the LuaDist project.
+
 package = "luaejdb"
 version = "1.1.0-2"
+-- LuaDist source
 source = {
-  url = "git://github.com/Softmotions/ejdb-lua.git"
+  tag = "1.1.0-2",
+  url = "git://github.com/LuaDist-testing/luaejdb.git"
 }
+-- Original source
+-- source = {
+--   url = "git://github.com/Softmotions/ejdb-lua.git"
+-- }
 description = {
   summary = "Embedded JSON Database engine Lua binding",
   detailed = [[It aims to be a fast MongoDB-like library which can be embedded into C/C++, .Net, NodeJS, 
@@ -37,4 +45,3 @@ build = {
     }
   }
 }
-
